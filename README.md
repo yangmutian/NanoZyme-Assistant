@@ -63,14 +63,14 @@ The complete workflow of NZ-A is implemented through a series of Jupyter noteboo
 
 Due to GitHub storage limitations, some large files are hosted externally on Google Drive. 
 
-#### 🧪 Nanozyme Dataset
+#### Nanozyme Dataset
 - `./data/peroxidase.xlsx`  
   Curated nanozyme dataset collected from literature.
 
 - `./data/peroxidase_feature.csv`  
   Feature-engineered version of the nanozyme dataset for model training.
 
-#### 🧱 Materials Project Dataset
+#### Materials Project Dataset
 - `./data/materials_project.xlsx`  
   Raw materials data obtained from the Materials Project database.
 
@@ -83,7 +83,7 @@ Due to GitHub storage limitations, some large files are hosted externally on Goo
 - `./data/predict_pod.csv`  
   Final screened nanozyme candidates from Materials Project with predicted activity scores.
 
-#### 🧬 AFLOW Dataset
+#### AFLOW Dataset
 - `./data/aflow_features.csv`  
   Feature-engineered dataset derived from the AFLOW database.
 
