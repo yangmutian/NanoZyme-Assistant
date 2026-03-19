@@ -65,39 +65,39 @@ Due to GitHub storage limitations, some large files are hosted externally on Goo
 
 The datasets used in this project are organized as follows:
 
-#### Nanozyme Dataset
-- `./data/peroxidase.xlsx`
-  Curated nanozyme dataset collected from literature.
+- **Database**
+  - `./data/peroxidase.xlsx`  
+    Curated nanozyme dataset collected from literature.
 
-- `./data/peroxidase_feature.csv`
-  Feature-engineered version of the nanozyme dataset for model training.
+  - `./data/peroxidase_feature.csv`  
+    Feature-engineered nanozyme dataset for model training.
 
-#### Integrated Training Dataset
-- `./data/data.csv` (storeged in Google Drive)
-  Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features.
+- **Integrated Dataset**
+  - `./data/data.csv`  
+    Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features.
 
-#### Materials Project Dataset
-- `./data/materials_project.xlsx`
-  Raw materials data obtained from the Materials Project database.
+- **Materials Project**
+  - `./data/materials_project.xlsx`  
+    Raw materials data obtained from the Materials Project database.
 
-- `./data/materials_project_features.csv`
-  Feature-engineered Materials Project dataset.
+  - `./data/materials_project_features.csv`  
+    Feature-engineered Materials Project dataset.
 
-- `./data/theoretical.csv`
-  Subset of Materials Project materials that are theoretically synthesizable.
+  - `./data/theoretical.csv`  
+    Subset of Materials Project materials that are theoretically synthesizable.
 
-- `./data/predict_pod.csv`
-  Final screened nanozyme candidates from Materials Project with predicted activity scores.
+  - `./data/predict_materials_project.csv`  
+    Predicted nanozyme activity scores for all Materials Project materials.
 
-- `./data/predict_materials_project.csv` (storeged in Google Drive)
-  Predicted nanozyme activity scores for all Materials Project materials.
+  - `./data/predict_pod.csv`  
+    Final screened nanozyme candidates with high predicted activity.
 
-#### AFLOW Dataset
-- `./data/aflow_features.csv` (storeged in Google Drive)
-  Feature-engineered dataset derived from the AFLOW database.
+- **AFLOW**
+  - `./data/aflow_features.csv`  
+    Feature-engineered dataset derived from the AFLOW database.
 
-- `./data/predict_aflow.csv` (storeged in Google Drive)
-  Predicted nanozyme activity scores for AFLOW materials.
+  - `./data/predict_aflow.csv`  
+    Predicted nanozyme activity scores for AFLOW materials.
 
 
 ### 3. 🤖 Model
