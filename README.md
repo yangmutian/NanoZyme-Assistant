@@ -63,32 +63,42 @@ The complete workflow of NZ-A is implemented through a series of Jupyter noteboo
 
 Due to GitHub storage limitations, some large files are hosted externally on Google Drive. 
 
+The datasets used in this project are organized as follows:
+
 #### Nanozyme Dataset
-- `./data/peroxidase.xlsx`  
+- `./data/peroxidase.xlsx`
   Curated nanozyme dataset collected from literature.
 
-- `./data/peroxidase_feature.csv`  
+- `./data/peroxidase_feature.csv`
   Feature-engineered version of the nanozyme dataset for model training.
 
+#### Integrated Training Dataset
+- `./data/data.csv` (storeged in Google Drive)
+  Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features.
+
 #### Materials Project Dataset
-- `./data/materials_project.xlsx`  
+- `./data/materials_project.xlsx`
   Raw materials data obtained from the Materials Project database.
 
-- `./data/materials_project_features.csv`  
+- `./data/materials_project_features.csv`
   Feature-engineered Materials Project dataset.
 
-- `./data/theoretical.csv`  
+- `./data/theoretical.csv`
   Subset of Materials Project materials that are theoretically synthesizable.
 
-- `./data/predict_pod.csv`  
+- `./data/predict_pod.csv`
   Final screened nanozyme candidates from Materials Project with predicted activity scores.
 
+- `./data/predict_materials_project.csv` (storeged in Google Drive)
+  Predicted nanozyme activity scores for all Materials Project materials.
+
 #### AFLOW Dataset
-- `./data/aflow_features.csv`  
+- `./data/aflow_features.csv` (storeged in Google Drive)
   Feature-engineered dataset derived from the AFLOW database.
 
-- `./data/predict_aflow.csv`  
+- `./data/predict_aflow.csv` (storeged in Google Drive)
   Predicted nanozyme activity scores for AFLOW materials.
+
 
 ### 3. 🤖 Model
 
