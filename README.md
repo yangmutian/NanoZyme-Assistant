@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="ChatGPT Image 2026年3月19日 18_29_28" src="https://github.com/user-attachments/assets/d11764be-9475-4a37-8312-8715fff884b9" />
+![图片1](https://github.com/user-attachments/assets/574387d9-a656-469f-92f7-7eadabbd7b86)
 
 ## 🧪 NanoZyme-Assistant
 
