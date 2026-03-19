@@ -19,9 +19,9 @@ NZ-A provides an end-to-end solution:
 ## 🧠 Framework
 NZ-A establishes an end-to-end screening pipeline for three representative nanozyme activities:
 
-- **Peroxidase-like (POD)**
-- **Oxidase-like (OXD)**
-- **Catalase-like (CAT)**
+- Peroxidase-like (POD)
+- Oxidase-like (OXD)
+- Catalase-like (CAT)
 
 Each activity is implemented as an independent module and corresponds to a dedicated folder in this repository, enabling flexible experimentation and extension.
 
@@ -61,11 +61,16 @@ The complete workflow of NZ-A is implemented through a series of Jupyter noteboo
 
 ### 2. 📊 Database
 
-The constructed nanozyme database is publicly available:
+Due to GitHub storage limitations, some large files are hosted externally on Google Drive. 
 
-- `./data/materials_project.xlsx`  
-
-This dataset contains curated nanozyme-related information extracted and processed from literature and materials databases.
+- `./data/peroxidase.xlsx`
+- `./data/peroxidase_feature.csv`
+- `./data/materials_project.xlsx`
+- `./data/materials_project_features.csv`
+- `theoretical.csv`
+- `predict_pod.csv`
+- `aflow_features.csv`
+- `predict_aflow.csv`
 
 ### 3. 🤖 Model
 
