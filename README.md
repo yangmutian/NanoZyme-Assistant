@@ -102,9 +102,8 @@ The datasets used in this project are organized as follows:
 
 ### 3. 🤖 Model
 
-The trained models used for nanozyme discovery are provided:
+The trained models used for nanozyme discovery are provided via Google Drive in `.cbm` format.
 
-- Stored in the `Model/` directory  
-- Format: `.cbm` (CatBoost models)
+Please download the models and place them in the `model/` directory before running the code.
 
-These models can be directly used for inference and large-scale screening.
+- [Google Drive](YOUR_LINK_HERE)
