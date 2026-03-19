@@ -61,7 +61,7 @@ The complete workflow of NZ-A is implemented through a series of Jupyter noteboo
 
 ### 2. 📊 Database
 
-Due to GitHub storage limitations, some large files are hosted externally on Google Drive. 
+Due to GitHub storage limitations, some large files are hosted externally on [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing). 
 
 The datasets used in this project are organized as follows:
 
@@ -74,34 +74,34 @@ The datasets used in this project are organized as follows:
 
 - **Integrated Dataset**
   - `./data/data.csv`  
-    Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features.
+    Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features. Storaged in Google Drive. 
 
 - **Materials Project**
   - `./data/materials_project.xlsx`  
     Raw materials data obtained from the Materials Project database.
 
-  - `./data/materials_project_features.csv`  
+  - `./data/materials_project_features.csv`
     Feature-engineered Materials Project dataset.
 
   - `./data/theoretical.csv`  
     Subset of Materials Project materials that are theoretically synthesizable.
 
   - `./data/predict_materials_project.csv`  
-    Predicted nanozyme activity scores for all Materials Project materials.
+    Predicted nanozyme activity scores for all Materials Project materials. Storaged in Google Drive. 
 
   - `./data/predict_pod.csv`  
     Final screened nanozyme candidates with high predicted activity.
 
 - **AFLOW**
   - `./data/aflow_features.csv`  
-    Feature-engineered dataset derived from the AFLOW database.
+    Feature-engineered dataset derived from the AFLOW database. Storaged in Google Drive. 
 
   - `./data/predict_aflow.csv`  
-    Predicted nanozyme activity scores for AFLOW materials.
+    Predicted nanozyme activity scores for AFLOW materials. Storaged in Google Drive. 
 
 
 ### 3. 🤖 Model
 
-The trained models used for nanozyme discovery are provided via Google Drive in `.cbm` format [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing).
+The trained models used for nanozyme discovery are provided via [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing) in `.cbm` format .
 
 Please download the models and place them in the `model/` directory before running the code.
