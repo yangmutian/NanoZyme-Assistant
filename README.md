@@ -74,7 +74,7 @@ The datasets used in this project are organized as follows:
 
 - **Integrated Dataset**
   - `./data/data.csv`  
-    Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features. Storaged in Google Drive. 
+    Final integrated dataset used for model training, constructed by combining nanozyme data with Materials Project features. Storaged in [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing). 
 
 - **Materials Project**
   - `./data/materials_project.xlsx`  
@@ -87,17 +87,17 @@ The datasets used in this project are organized as follows:
     Subset of Materials Project materials that are theoretically synthesizable.
 
   - `./data/predict_materials_project.csv`  
-    Predicted nanozyme activity scores for all Materials Project materials. Storaged in Google Drive. 
+    Predicted nanozyme activity scores for all Materials Project materials. Storaged in [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing). 
 
   - `./data/predict_pod.csv`  
     Final screened nanozyme candidates with high predicted activity.
 
 - **AFLOW**
   - `./data/aflow_features.csv`  
-    Feature-engineered dataset derived from the AFLOW database. Storaged in Google Drive. 
+    Feature-engineered dataset derived from the AFLOW database. Storaged in [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing). 
 
   - `./data/predict_aflow.csv`  
-    Predicted nanozyme activity scores for AFLOW materials. Storaged in Google Drive. 
+    Predicted nanozyme activity scores for AFLOW materials. Storaged in [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing). 
 
 
 ### 3. 🤖 Model
