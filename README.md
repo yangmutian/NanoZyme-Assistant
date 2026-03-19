@@ -1,4 +1,6 @@
-# 🧪 NanoZyme-Assistant
+<img width="1536" height="1024" alt="ChatGPT Image 2026年3月19日 18_29_28" src="https://github.com/user-attachments/assets/d11764be-9475-4a37-8312-8715fff884b9" />
+
+## 🧪 NanoZyme-Assistant
 
 NanoZyme-Assistant is an AI-driven framework for large-scale nanozyme discovery, integrating data construction, model prediction, and automated screening into a unified pipeline.
 
