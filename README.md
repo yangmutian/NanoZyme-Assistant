@@ -105,3 +105,13 @@ The datasets used in this project are organized as follows:
 The trained models used for nanozyme discovery are provided via [Google Drive](https://drive.google.com/drive/folders/1hx0y6aLQ8fMEHXUdqUtIi06uDkwt3osO?usp=sharing) in `.cbm` format .
 
 Please download the models and place them in the `model/` directory before running the code.
+
+### 4. ⚙️ Environment
+
+The environment dependencies are provided in the `environment.yml` file.
+
+To reproduce the environment, run:
+
+```bash
+conda env create -f environment.yml
+conda activate nanozyme
